@@ -15,15 +15,24 @@
 <body>
     
     <header>
+        <a href="#inicio" aria-label="Ir a la sección de inicio" class="logo">
+            <img class="logo" src="img/Logo_2-removebg.png" alt="logo">
+        </a>
 
-        <img class="logo" src="img/Logo_2-removebg.png" alt="logo">
+        <button id="menu-button">
+            <img src="img/open-menu.svg" id="open-menu">
+            <img src="img/close-menu.svg" id="close-menu">
+        </button>
 
         <nav>
             <ul  class="nav_links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li class="menu-item"><a href="#">Inicio</a></li>
+                <li class="menu-item"><a href="#proyect">Proyectos</a></li>
+                <li class="menu-item"><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
+
+        
 
     </header>
     
@@ -57,6 +66,11 @@
             
         </div>
 
+        <section id="proyect">
+            <h2>Proyectos (Zona en construcción) </h2>
+            <img class="img_proyecto" src="img/web_en_construccion_2.png" alt="web en web_en_construccion">
+        </section>
+        
         <section class="section2" id="contact">
 
             <article class="contacto">
@@ -106,5 +120,5 @@
 
 
 </body>
-
+    <script src="js/script.js"></script>
 </html>
