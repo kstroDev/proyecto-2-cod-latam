@@ -244,3 +244,68 @@
 		transform: translate(0,0.375em) rotate(-45deg);
 	}
 }
+
+
+/* IR ARRIBA BOTON */
+
+.irArriba-container {
+	position: fixed;
+	bottom: 4rem;
+	right: 3rem;
+	width: 1rem;
+	height: 1rem;
+	z-index: -1;
+}
+
+.irArriba-boton {
+	width: 0rem;
+	height: 0rem;
+	background: #af599e;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: .2s;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.irArriba-boton i {
+	position: absolute;
+	font-size: 2rem;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	color: #fbfbfb;
+	transition: .2s;
+}
+
+.show {
+	z-index: 10;
+}
+
+.show .irArriba-boton {
+	animation: popup .3s ease-in-out;
+	width: 4rem;
+	height: 4rem;
+	z-index: 11;
+}
+
+.show i {
+	transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+	0% {
+		width: 0rem;
+		height: 0rem;
+	}
+	50% {
+		width: 8rem;
+		height: 8rem;
+	}
+	100% {
+		width: 6.6rem;
+		height: 6.6rem;
+	}
+}

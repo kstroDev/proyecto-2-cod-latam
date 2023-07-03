@@ -65,3 +65,20 @@ function getMSFromProperty(property,selector) {
 	else if (sLabelPos > -1)
 		return transDur.substr(0,sLabelPos) * 1e3;
 }
+
+/* Boton Subir */
+
+window.onscroll = () => {
+	console.log(document.documentElement.scrollTop);
+	if(document.documentElement.scrollTop > 100){
+		document.querySelector('.irArriba-container').classList.add('show');
+	} else {
+		document.querySelector('.irArriba-container').classList.remove('show');
+	}
+}
+
+document.querySelector('.irArriba-container').addEventListener('click', () => {
+	window.scrollTo({
+		top: 0, behavior: 'smooth'
+	});
+});
