@@ -69,11 +69,7 @@
     .contacto h2 {
         font-size: 32px;
     }
-    #descargar {
-        font-size: 32px;
-        width: 300px;
-
-    }
+    
     .section1, .section2 {
         min-height: 50vh;
         margin: 0 10px;
