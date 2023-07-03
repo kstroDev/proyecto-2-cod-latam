@@ -56,7 +56,7 @@ _La página en este momento cuenta con modo oscuro, tiene un breakpoint responsi
 
 ## Expresiones de Gratitud 🎁
 
-* A mis hijas y esposa quién me han seguido motivand a continuar con este sueño 👪 
+* A mis hijas y esposa quienes me han seguido motivando a continuar con este sueño. 👪 
 * A todo el equipo de Código Palante por sus enseñanzas y oportunidades. 🎓
 * A todo el equipo de Alura Latam, con el programa Oracle Nex Education(ONE) 🎓
 * A mi, que se qué el camino es largo y complicado pero sé que lo voy a lograr. 🎉
